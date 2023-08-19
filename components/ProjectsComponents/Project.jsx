@@ -9,8 +9,9 @@ const Project = ({name, description, tools, links, even=false}) => {
         <h1>{name.charAt(0).toUpperCase() + name.slice(1)}</h1>
         <DescToolsLinks description={description} tools={tools} links={links} even={even}/>
         <div className={styles.project_images}>
-            <Image src={'/photos/project.png'} alt={name} width={500} height={334}/>
-            <Image src={'/photos/project.png'} alt={name} width={500} height={334}/>
+            <Image src={'/photos/project.png'} alt={name} width={357} height={291}/>
+            <Image src={'/photos/project.png'} alt={name} width={357} height={291}/>
+            <Image src={'/photos/project.png'} alt={name} width={357} height={291}/>
         </div>
     </div>
   )
