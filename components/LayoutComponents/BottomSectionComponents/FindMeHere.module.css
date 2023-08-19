@@ -1,0 +1,13 @@
+@import url('https://fonts.cdnfonts.com/css/outfit');
+
+.find_me_here{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.find_me_here p{
+    font-family: 'Outfit', 'sans-serif';
+    font-size: 28px;
+}
