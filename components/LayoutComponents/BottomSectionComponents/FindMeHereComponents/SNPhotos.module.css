@@ -5,4 +5,15 @@
     row-gap: 15px;
     column-gap: 15px;
     width: 270px;
+    
+}
+
+.snphotos a{
+    border-radius: 100%;
+    opacity: 100%;
+    transition: opacity 0.4s;
+}
+
+.snphotos a:hover{
+    opacity: 30%;
 }

@@ -1,11 +1,7 @@
-.bg{
-    width: 100%;
-    background-color: #222831;
-}
-
 .navbar{
     display: flex;
-    margin: 0 130px;
+    background-color: #222831;
+    padding: 0 130px;
     height: 100px;
     flex-direction: row;
     justify-content: space-between;
@@ -18,14 +14,28 @@
     font-size: 28px;
 }
 
-.navbar nav{
-    width: 65%;
-}
-
 .navbar ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: right;
     list-style: none;
     font-size: 24px;
 }
+
+.navbar a{
+    display: block;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    padding-top: 65px; 
+    background-color: #222831;
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: color, background-color 0.5s;
+}
+
+.navbar a:hover{
+    background-color:#EEEEEE;
+    color: #000;
+}   

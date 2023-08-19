@@ -1,19 +1,27 @@
 import styles from './Navbar.module.css'
 
+import Link from 'next/link'
+
 const Navbar = () => {
   return (
-    <div className={styles.bg}>
     <div className={styles.navbar}>
         <h1><i>Vladyslav Dovzhenko</i></h1>
         <nav>
             <ul>
-                <li>Who am I?</li>
-                <li>Projects</li>
-                <li>Blog</li>
-                <li>Newsletters</li>
+                <li>
+                  <Link href="/aboutMe">Who am I?</Link>
+                </li>
+                <li>
+                  <Link href="/projects">Projects</Link>
+                </li>
+                <li>
+                  <Link href="/blog">Blog</Link>
+                </li>
+                <li>
+                  <Link href="/newsletters">Newsletters</Link>
+                </li>
             </ul>
         </nav>
-    </div>
     </div>
   )
 }

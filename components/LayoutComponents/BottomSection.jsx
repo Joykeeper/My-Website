@@ -5,12 +5,10 @@ import Phrase from './BottomSectionComponents/Phrase'
 
 const BottomSection = () => {
   return (
-    <div className={styles.bg}>
     <div className={styles.bottom_section}>
         <Phrase />
         <BottomNavbar />
         <FindMeHere />
-    </div>
     </div>
   )
 }

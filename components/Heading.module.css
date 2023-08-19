@@ -1,0 +1,21 @@
+.heading{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: #393E46;
+    padding: 0 130px;
+    height: 1024px;
+}
+
+.heading h1{
+    font-size: 100px;
+    font-family: 'Outfit', 'sans-serif';
+    color: #EEEEEE;
+    margin-bottom: 60px;
+}
+
+.heading p{
+    font-size: 20px;
+    font-family: 'Inter', 'sans-serif';
+    color: #EEEEEE;
+}

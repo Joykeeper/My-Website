@@ -1,0 +1,15 @@
+.text_based_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 340px;
+}
+
+.bottom{
+    align-self: flex-start;
+}
+
+.top{
+    align-self: flex-end;
+}
