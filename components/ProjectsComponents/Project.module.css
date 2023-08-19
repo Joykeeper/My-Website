@@ -1,0 +1,29 @@
+.project{
+    display: flex;
+    padding: 0 130px;
+    height: 1024px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.colors_even{
+    background-color: #00ADB5;
+    color:#EEEEEE;
+}
+.colors_odd{
+    background-color: #EEEEEE;
+    color:#000;
+}
+
+.project h1{
+    font-size: 64px;
+    margin-top: 130px;
+    margin-bottom: 60px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.project_images{
+    display: flex;
+    justify-content: space-around;
+}

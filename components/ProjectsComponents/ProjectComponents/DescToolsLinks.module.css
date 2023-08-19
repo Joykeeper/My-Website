@@ -1,0 +1,13 @@
+.desc_tools_links{
+    display: flex;
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desc_tools_links p{
+    margin-top: 0;
+    font-size: 28px;
+    font-family: 'Inter';
+    width: 45%;
+}
