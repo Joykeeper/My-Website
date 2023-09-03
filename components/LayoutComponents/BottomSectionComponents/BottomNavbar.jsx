@@ -12,15 +12,15 @@ const BottomNavbar = () => {
         </li>
         <br/>
         <li>
-          <Link href={'/Projects'}>Projects</Link>
+          <Link href={'/projects'}>Projects</Link>
         </li>
         <br/>
         <li>
-          <Link href={'/Blog'}>Blog</Link>
+          <Link href={'/blog'}>Blog</Link>
         </li>
         <br/>
         <li>
-          <Link href={'/Newsletters'}>Newsletters</Link>
+          <Link href={'/newsletters'}>Newsletters</Link>
         </li>
       </ul>
       </nav>

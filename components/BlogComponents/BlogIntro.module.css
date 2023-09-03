@@ -1,0 +1,23 @@
+.blog_intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 0 130px;
+    height: 1024px;
+}
+
+.blog_intro h1{
+    font-family: 'Outfit', 'sans-serif';
+    font-size: 56px;
+    margin-bottom: 130px;
+}
+
+.sections{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}

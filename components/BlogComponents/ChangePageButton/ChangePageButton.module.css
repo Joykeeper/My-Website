@@ -1,0 +1,49 @@
+.change_page_button{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    height: 55px;
+    margin-bottom: 30px;
+}
+
+.change_page_button button{
+    text-decoration: none;
+    border: none;
+    font-style: none;
+    background-color: #393E46;
+    color: #767e8a;
+    font-family: 'Outfit', 'sans-serif';
+    font-size: 32px;
+    width: 220px;
+    height: 55px;
+    cursor: pointer;
+    transition: color 0.7s;
+}
+
+.next{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.prev{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.change_page_button button:hover{
+    color:#EEEEEE;
+}
+
+.change_page_button div{
+    display: block;
+    justify-self: center;
+    text-decoration: none;
+    border: none;
+    font-style: none;
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-family: 'Outfit', 'sans-serif';
+    font-size: 32px;
+    padding-top: 8px;
+    width: 100%;
+    height: 47px;
+}

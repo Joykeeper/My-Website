@@ -1,0 +1,12 @@
+.tags_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+    justify-content: flex-start;
+    align-items: left;
+    width: auto;
+    height: auto;
+    padding: 0 22px;
+}

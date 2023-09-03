@@ -27,3 +27,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.project_images img{
+    border-radius: 30px;
+}

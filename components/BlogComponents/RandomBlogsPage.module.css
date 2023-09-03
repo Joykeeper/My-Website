@@ -1,0 +1,26 @@
+.random_blogs_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 0 130px;
+    height: 1024px;
+}
+
+.blue_page{
+    background-color: #00ADB5;
+    color:#EEEEEE;
+}
+
+.white_page{
+    background-color: #EEEEEE;
+    color:#000000;
+}
+
+.random_blogs_page h1{
+    margin-top: 150px;
+    margin-bottom: 120px;
+    font-family: 'Outfit', 'sans-serif';
+    font-size: 72px;
+}

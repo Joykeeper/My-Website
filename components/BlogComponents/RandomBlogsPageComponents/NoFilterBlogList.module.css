@@ -1,0 +1,16 @@
+.no_filter_blog_list{
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    height: 480px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.blue_page{
+    background-color: #EEEEEE;
+}
+
+.white_page{
+    background-color: #00ADB5;
+}

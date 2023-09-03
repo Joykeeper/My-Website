@@ -25,10 +25,9 @@
 .navbar a{
     display: block;
     width: 200px;
-    height: 100px;
-    align-items: center;
+    height: 66px;
+    padding-top: 34px;
     text-align: center;
-    padding-top: 65px; 
     background-color: #222831;
     text-decoration: none;
     color: #EEEEEE;

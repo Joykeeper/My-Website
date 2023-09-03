@@ -1,0 +1,18 @@
+.tag_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 480px;
+    width: 380px;
+    background-color: #393E46;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tag_section h6{
+    font-family: 'Outfit', 'sans-serif';
+    margin: 40px 0;
+    font-size: 32px;
+    color: #EEEEEE;
+    font-weight: normal;
+}
