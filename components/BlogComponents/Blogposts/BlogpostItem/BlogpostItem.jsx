@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './BlogpostItem.module.css'
 
 const BlogpostItem = ({heading}) => {
@@ -5,9 +6,9 @@ const BlogpostItem = ({heading}) => {
     <div className={styles.blogpost_item} style={{backgroundImage: `url(${'./photos/blog.png'})`}}>
         <div className={styles.name}>
           <p>
-            {heading} When I was young and bold and lol 
+            {heading}
           </p>
-          <button>Read</button>
+          <div className={styles.read}><Link href={heading}>Read</Link></div>
         </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import styles from './RightTextLeftPhoto.module.css'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 const RightTextLeftPhoto = ({heading, text, ph_width, ph_height}) => {
   return (
@@ -9,7 +10,7 @@ const RightTextLeftPhoto = ({heading, text, ph_width, ph_height}) => {
       <div>
         <h1>My {heading}</h1>
         <p>{text}</p>
-        <button>Check out my {heading}</button>
+        <div className={styles.link}><Link href={`/${heading}`}>Check out my {heading}</Link></div>
       </div>
     </div>
   )

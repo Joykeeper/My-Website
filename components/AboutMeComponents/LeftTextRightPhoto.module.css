@@ -28,9 +28,19 @@
     border-radius: 60px;
 }
 
-.left_text_right_photo button{
+.left_text_right_photo .link{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.left_text_right_photo a{
+    display: block;
     width: 380px;
-    height: 100px;
+    height: 70px;
+    padding-top: 30px;
+    text-decoration: none;
     border-radius: 30px;
     border: none;
     font-size: 28px;
@@ -41,7 +51,7 @@
     cursor: pointer;
 }
 
-.left_text_right_photo button:hover{
+.left_text_right_photo a:hover{
     color:#EEEEEE;
     background-color: #000;
 }

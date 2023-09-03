@@ -27,27 +27,34 @@
     height: 100%;
 }
 
-.name button{
+.name .read{
     display: none;
 }
 
-.name:hover > button{
-    display: inline-block;
-    height: 30px;
+.name:hover > .read{
+    display: flex;
+    justify-content: center;
     width: 60px;
-    margin-top: 0px;
+    height: 30px;
+    margin-top: 0;
     border: none;
     background-color: #000;
-    font-family: 'Outfit', 'sans-serif';
-    color: #EEEEEE;
     cursor: pointer;
     border-radius: 0;
     transition: border-radius 0.4s;
 }
-.name button:hover{
+.name .read:hover{
     border-radius: 30px;
 }
 
+.read a{
+    padding-top: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Outfit', 'sans-serif';
+    color: #EEEEEE;
+}
 
 .name p{
     display: block;
