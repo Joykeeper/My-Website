@@ -5,12 +5,9 @@ import Link from 'next/link'
 
 const LinksImages = ({links}) => {
 
-  /*Dictionary for providing right link for each link name*/
-  let link_to_site = {github: 'https://github.com/', itch: 'https://itch.io/'}
-
   /*Logic for providing right icon for each link name*/
-  let links_list = links?.map((link) => (
-    <Link href={link_to_site[link]}><Image src={`/photos/LinksToProject/${link}.png`} alt={`${link}`} width={80} height={80} /></Link>
+  let links_list = links?.map(([website, value]) => (
+    <Link href={value}><Image src={`/photos/LinksToProject/${website}.png`} alt={`${website}`} width={80} height={80} /></Link>
   ))
   
   return (
