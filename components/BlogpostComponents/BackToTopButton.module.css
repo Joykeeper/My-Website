@@ -1,0 +1,19 @@
+.backToTopButton{
+    background-color: aqua;
+}
+
+.backToTopButton a{
+    display: block;
+    width: 100px;
+    height: 70px;
+    left: 1300px;
+    text-decoration: none;
+    color: #EEEEEE;
+    background-color: #222831;
+    top: 500px;
+    text-align: center;
+    padding-top: 30px;
+    position: fixed;
+    border-radius: 100%;
+    font-size: 50px;
+}

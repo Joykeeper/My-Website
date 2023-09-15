@@ -8,7 +8,7 @@ const BlogpostItem = ({heading}) => {
           <p>
             {heading}
           </p>
-          <div className={styles.read}><Link href={heading}>Read</Link></div>
+          <div className={styles.read}><Link href={'/blog/' + heading}>Read</Link></div>
         </div>
     </div>
   )
