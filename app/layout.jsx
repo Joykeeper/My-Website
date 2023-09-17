@@ -1,4 +1,5 @@
 import style from './layout.module.css'
+import './global.css'
 
 import BottomSection from "@/components/LayoutComponents/BottomSection"
 import Navbar from "@/components/LayoutComponents/Navbar"
@@ -11,9 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
  return (
     <html lang="en" className={style.main}>
-      <Navbar />
-      <body>{children}</body>
-      <BottomSection />
+      <body>
+        <Navbar />
+        <main>{children}</main>
+        <BottomSection />
+      </body>
     </html>
   )
 }

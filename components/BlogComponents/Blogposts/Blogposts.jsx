@@ -1,18 +1,20 @@
 import styles from './Blogposts.module.css'
 import BlogpostItem from './BlogpostItem/BlogpostItem'
 
-const Blogposts = ({size}) => {
+
+const Blogposts = ({size, page, blogposts}) => {
+
+  let blogs = []
+  if (typeof blogposts == 'object'){
+    blogs = Object.values(blogposts).slice((page-1)*size, page*size).map((heading, i)=>{
+      return <BlogpostItem heading={heading}/>
+    })
+  } 
+  
+
   return (
-    <div className={`${styles.blogposts} ${size=='big'?styles.big:styles.small}`}>
-        <BlogpostItem heading={'When I was young and bold and lol '}/>
-        <BlogpostItem heading={'asda'}/>
-        <BlogpostItem heading={'asdas'}/>
-        <BlogpostItem heading={'asdaaaa'}/>
-        
-        <BlogpostItem heading={'dddd'}/>
-        <BlogpostItem heading={'www'}/>
-        <BlogpostItem heading={'aaad'}/>
-        <BlogpostItem heading={'asdaww'}/>
+    <div className={`${styles.blogposts} ${size==12?styles.big:styles.small}`}>
+        {blogs}
     </div>
   )
 }
