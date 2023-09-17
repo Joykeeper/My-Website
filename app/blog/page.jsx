@@ -10,25 +10,34 @@ import { useState } from 'react'
 const page = () => {
 
   const [booksBlogposts, setBooksBlogposts] = useState({
-    0: "lol1", 1: "lol12", 2: "lol13", 3: "lol14",
-    4: "lol11", 5: "lol41", 6: "lol5", 7:"lolk1",
-    8: "lolsd11", 9: "loddal41", 10: "lodaal5", 11:"lddaolk1",
-    12: "lodasl11", 13: "lol4asd1", 14: "lolsdd5", 15:"loasdlk1",
-    16: "loldsa11", 17: "lolds41", 18: "lola5", 19:"losalk1"
+    0: ["w", ['Webdesign']], 1: ["w", ['Webdesign']], 
+    2: ["o", ['Other']], 3: ["g", ['Gamedev']],
+    4: ["w", ['Webdesign']], 5: ["o", ['Other']],
+    6: ["j", ['Java']], 7: ["e", ['Else']],
+    8: ["w", ['Webdesign']], 9: ["p", ['Python']],
+    10: ["w", ['Webdesign']],
   })
   const [techsBlogposts, setTechsBlogposts] = useState({
-    0: "lol1", 1: "lol12", 2: "lol13", 3: "lol14",
-    4: "lol11", 5: "lol41", 6: "lol5", 7:"lolk1",
-    8: "lolsd11", 9: "loddal41", 10: "lodaal5", 11:"lddaolk1",
-    12: "lodasl11", 13: "lol4asd1", 14: "lolsdd5", 15:"loasdlk1",
-    16: "loldsa11", 17: "lolds41", 18: "lola5", 19:"losalk1"
+    0: ["lol1", ['Webdesign']], 1: ["lol1", ['Webdesign']], 
+    2: ["lol1", ['Other']], 3: ["lol1", ['Gamedev']],
+    4: ["lol1", ['Webdesign']], 5: ["lol1", ['Other']],
+    6: ["lol1", ['Webdesign']], 7: ["lol1", ['Else']]
   })
   const [otherBlogposts, setOtherBlogposts] = useState({
-    0: "lol1", 1: "lol12", 2: "lol13", 3: "lol14",
-    4: "lol11", 5: "lol41", 6: "lol5", 7:"lolk1",
-    8: "lolsd11", 9: "loddal41", 10: "lodaal5", 11:"lddaolk1",
-    12: "lodasl11", 13: "lol4asd1", 14: "lolsdd5", 15:"loasdlk1",
-    16: "loldsa11", 17: "lolds41", 18: "lola5", 19:"losalk1"
+    0: ["lol1", []], 1: ["lol1", []], 
+    2: ["lol1", []], 3: ["lol1", []],
+    4: ["lol1", []], 5: ["lol1", []],
+    6: ["lol1", []], 7: ["lol1", []],
+    8: ["lol1", []], 9: ["lol1", []], 
+    10: ["lol1", []], 11: ["lol1", []],
+    12: ["lol1", []], 13: ["lol1", []],
+    14: ["lol1", []], 15: ["lol1", []],
+    16: ["lol1", []], 17: ["lol1", []], 
+    18: ["lol1", []], 19: ["lol1", []],
+    20: ["lol1", []], 21: ["lol1", []],
+    22: ["lol1", []], 23: ["lol1", []],
+    24: ["lol1", []], 26: ["lol1", []],
+    26: ["lol1", []], 27: ["lol1", []],
   })
 
   return (

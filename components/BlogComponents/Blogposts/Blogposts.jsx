@@ -6,8 +6,8 @@ const Blogposts = ({size, page, blogposts}) => {
 
   let blogs = []
   if (typeof blogposts == 'object'){
-    blogs = Object.values(blogposts).slice((page-1)*size, page*size).map((heading, i)=>{
-      return <BlogpostItem heading={heading}/>
+    blogs = Object.values(blogposts).slice((page-1)*size, page*size).map((blogpost, i)=>{
+      return <BlogpostItem heading={blogpost[0]}/>
     })
   } 
   

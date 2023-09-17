@@ -6,9 +6,7 @@ const TagsList = ({tags, choose_tag}) => {
   let tags_list = Object.keys(tags).map((name, i) =>{
     let setTag = () =>{
       let newTags = {...tags};
-      console.log(newTags);
       newTags[name] = !newTags[name]
-      console.log(newTags);
       choose_tag({...newTags});
     }
 
