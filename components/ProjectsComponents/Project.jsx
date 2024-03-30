@@ -12,9 +12,9 @@ const Project = ({project, even=false}) => {
                         links={project.links} 
                         even={even}/>
         <div className={styles.project_images}>
-          <Image src={`/photos/ProjectPhotos/${project.name}/1.png`} alt={project.name} width={357} height={291}/>
-          <Image src={`/photos/ProjectPhotos/${project.name}/2.png`} alt={project.name} width={357} height={291}/>
-          <Image src={`/photos/ProjectPhotos/${project.name}/3.png`} alt={project.name} width={357} height={291}/>
+          <div className={styles.project_image}><Image src={`/photos/ProjectPhotos/${project.name}/1.png`} alt={project.name} layout='fill' objectFit='contain'/></div>
+          <div className={styles.project_image}><Image src={`/photos/ProjectPhotos/${project.name}/2.png`} alt={project.name} layout='fill' objectFit='contain'/></div>
+          <div className={styles.project_image}><Image src={`/photos/ProjectPhotos/${project.name}/3.png`} alt={project.name} layout='fill' objectFit='contain'/></div>
         </div>
     </div>
   )
