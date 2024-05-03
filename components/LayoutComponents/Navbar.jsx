@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-        <h1><i>Vladyslav Dovzhenko</i></h1>
+        <h1><i>Vladyslav</i></h1>
         <nav>
             <ul>
                 <li>
