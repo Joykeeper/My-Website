@@ -1,7 +1,8 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 //import { getAnalytics } from "firebase/analytics";
-import { getDatabase } from "firebase/database";
+//import { getDatabase } from "firebase/database";
+//import { getStorage } from "firebase/storage";
 
 function FirebaseConfig () {
     console.log(process.env.NEXT_PUBLIC_FIREBASE_PUBLIC_API_KEY)
@@ -17,7 +18,7 @@ function FirebaseConfig () {
     };
     const app = initializeApp(firebaseConfig);
     //const analytics = getAnalytics(app);
-    return getDatabase(app);
+    //return getDatabase(app);
 }
 
 export default FirebaseConfig();

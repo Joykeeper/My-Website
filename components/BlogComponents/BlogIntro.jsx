@@ -1,5 +1,5 @@
 import styles from './BlogIntro.module.css'
-import BlogSection from './BlogIntroComponents/BLogSection'
+import BlogSection from './BlogIntroComponents/BlogSection'
 
 const BlogIntro = () => {
 
