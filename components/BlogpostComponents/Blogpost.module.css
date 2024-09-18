@@ -8,7 +8,7 @@
     display: block;
     width: 100%;
     font-weight: bold;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     font-size: 78px;
     text-align: left;
 }
@@ -60,7 +60,7 @@
     display: block;
     width: 450px;
     height: 100px;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     font-size: 52px;
     padding-top: 25px;
     background-color: #393E46;

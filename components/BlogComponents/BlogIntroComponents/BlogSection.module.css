@@ -10,7 +10,7 @@
 }
 
 .blog_section h1{
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     font-size: 56px;
     color: #EEEEEE;
     text-decoration: none;
@@ -20,7 +20,7 @@
 }
 
 .blog_section p{
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     font-size: 24px;
     color: #EEEEEE;
     margin: 0 15px;
@@ -37,7 +37,7 @@
     color: #000000;
     text-decoration: none;
     font-size: 24px;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     transition: color, background-color 0.4s;
 }
 

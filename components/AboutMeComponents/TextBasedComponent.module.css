@@ -9,13 +9,13 @@
 }
 
 .text_based_component h1{
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     font-size: 64px;
 }
 
 .text_based_component p{
     text-align: center;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     font-size: 32px;
     margin-bottom: 50px;
 }

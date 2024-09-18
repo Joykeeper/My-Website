@@ -13,13 +13,13 @@
 
 .right_text_left_photo h1{
     font-size: 72px;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     margin-bottom: 80px;
 }
 
 .right_text_left_photo p{
     font-size: 28px;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     margin-bottom: 80px;
 }
 
@@ -44,7 +44,7 @@
     border-radius: 30px;
     border: none;
     font-size: 28px;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     background-color: #393E46;
     color:#EEEEEE;
     transition: color, background-color 0.3s ;
