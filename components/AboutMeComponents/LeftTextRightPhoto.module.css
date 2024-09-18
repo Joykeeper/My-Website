@@ -13,13 +13,13 @@
 
 .left_text_right_photo h1{
     font-size: 72px;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     margin-bottom: 80px;
 }
 
 .left_text_right_photo p{
     font-size: 28px;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: MyOutfit, sans-serif;
     margin-bottom: 80px;
 }
 

@@ -1,3 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: MyOutfit;
+    font-style: normal;
+    src: url("../public/fonts/Outfit-Regular.ttf");
+  }
