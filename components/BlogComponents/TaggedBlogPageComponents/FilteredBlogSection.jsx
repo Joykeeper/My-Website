@@ -8,7 +8,7 @@ import { useState } from 'react'
 
 const FilteredBlogSection = ({blogposts, blue_page}) => {
 
-  const [tags, setTags] = useState({"Webdesign":true, "Database": false, "React":false, "Scraping": false, "Python":false, "C++":false, "Java":false, "JS":false, "Gamedev":false, "Else":false, "Other":false});
+  const [tags, setTags] = useState({"Webdesign":false, "Database": false, "React":false, "Scraping": false, "Python":false, "C++":false, "Java":false, "JS":false, "Gamedev":false, "Else":false, "Other":false});
   const [page, setPage] = useState(1);
 
   let activatedTags = []

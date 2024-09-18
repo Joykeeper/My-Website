@@ -1,6 +1,6 @@
 const page = () => {
   return (
-    <div>asdasd</div>
+    <div>How did you get here?</div>
   )
 }
 

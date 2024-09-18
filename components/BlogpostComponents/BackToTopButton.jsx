@@ -3,7 +3,7 @@
 import styles from './BackToTopButton.module.css'
 import Link from 'next/link';
 
-import {useEffect} from 'react'; // don't forget
+import { useEffect } from 'react';
 
 const BackToTopButton = () => {
 

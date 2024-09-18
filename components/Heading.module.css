@@ -4,18 +4,19 @@
     text-align: center;
     background-color: #393E46;
     padding: 0 130px;
-    height: 1024px;
+    height: 100vh;
 }
+
 
 .heading h1{
     font-size: 100px;
-    font-family: 'Outfit', 'sans-serif';
+    font-family: 'Hind', 'sans-serif';
     color: #EEEEEE;
     margin-bottom: 60px;
 }
 
 .heading p{
     font-size: 20px;
-    font-family: 'Inter', 'sans-serif';
+    font-family: 'Hind', 'sans-serif';
     color: #EEEEEE;
 }

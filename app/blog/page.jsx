@@ -10,35 +10,35 @@ import { useState } from 'react'
 const page = () => {
 
   const [booksBlogposts, setBooksBlogposts] = useState({
-    0: ["w", ['Webdesign']], 1: ["w", ['Webdesign']], 
-    2: ["o", ['Other']], 3: ["g", ['Gamedev']],
-    4: ["w", ['Webdesign']], 5: ["o", ['Other']],
-    6: ["j", ['Java']], 7: ["e", ['Else']],
-    8: ["w", ['Webdesign']], 9: ["p", ['Python']],
-    10: ["w", ['Webdesign']],
+    0: ["JavaScript", ['Webdesign']], 1: ["TypeScript", ['Webdesign']], 
+    2: ["School", ['Other']], 3: ["New game", ['Gamedev']],
+    4: ["JavaScript 2", ['Webdesign']], 5: ["Foreign country", ['Other']],
+    6: ["Algorithms in Java", ['Java']], 7: ["Food", ['Else']],
+    8: ["Next.js 15", ['Webdesign']], 9: ["Snake game", ['Python', 'Gamedev']],
+    10: ["Figma usage", ['Webdesign']],
   })
   const [techsBlogposts, setTechsBlogposts] = useState({
-    0: ["lol1", ['Webdesign']], 1: ["lol1", ['Webdesign']], 
-    2: ["lol1", ['Other']], 3: ["lol1", ['Gamedev']],
-    4: ["lol1", ['Webdesign']], 5: ["lol1", ['Other']],
-    6: ["lol1", ['Webdesign']], 7: ["lol1", ['Else']]
+    0: ["JavaScript", ['Webdesign']], 1: ["SPA", ['Webdesign']], 
+    2: ["Rocket Science", ['Other']], 3: ["Wow a new game", ['Gamedev']],
+    4: ["Nest.js", ['Webdesign']], 5: ["Auto Skiing", ['Other']],
+    6: ["Webdesign", ['Webdesign']], 7: ["Healthy robot", ['Else']]
   })
   const [otherBlogposts, setOtherBlogposts] = useState({
-    0: ["lol1", []], 1: ["lol1", []], 
-    2: ["lol1", []], 3: ["lol1", []],
-    4: ["lol1", []], 5: ["lol1", []],
-    6: ["lol1", []], 7: ["lol1", []],
-    8: ["lol1", []], 9: ["lol1", []], 
-    10: ["lol1", []], 11: ["lol1", []],
-    12: ["lol1", []], 13: ["lol1", []],
-    14: ["lol1", []], 15: ["lol1", []],
-    16: ["lol1", []], 17: ["lol1", []], 
-    18: ["lol1", []], 19: ["lol1", []],
-    20: ["lol1", []], 21: ["lol1", []],
-    22: ["lol1", []], 23: ["lol1", []],
-    24: ["lol1", []], 26: ["lol1", []],
-    26: ["lol1", []], 27: ["lol1", []],
-  })
+    0: ["Unlocking Creative Potential", []], 1: ["The Power of Minimalism", []], 
+    2: ["Mastering Time Management", []], 3: ["Starting Your Passion Project", []],
+    4: ["Navigating Digital Trends", []], 5: ["How to Stay Motivated", []],
+    6: ["The Future of Remote Work", []], 7: ["Building Better Habits", []],
+    8: ["Exploring AI in Daily Life", []], 9: ["The Rise of Sustainable Tech", []], 
+    10: ["Breaking Free from Routine", []], 11: ["Why Networking Matters", []],
+    12: ["Harnessing Creativity in Business", []], 13: ["Maximizing Your Skillset", []],
+    14: ["The Art of Problem Solving", []], 15: ["Living with Intentionality", []],
+    16: ["Top Tools for Entrepreneurs", []], 17: ["Balancing Work and Wellness", []], 
+    18: ["Making Ideas Stick", []], 19: ["The Secret to Lifelong Learning", []],
+    20: ["Maximizing Your Skillset", []], 21: ["Harnessing Creativity in Business", []],
+    22: ["Living with Intentionality", []], 23: ["Exploring AI in Daily Life", []],
+    24: ["Mastering Time Management", []], 25: ["Unlocking Creative Potential", []],
+    26: ["Building Better Habits", []], 27: ["The Future of Remote Work", []],
+});
 
   return (
     <div>
